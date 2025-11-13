@@ -1,0 +1,9 @@
+{
+	"name": "adflearninglab",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5e9beed8-72f1-4294-b8e4-4cc8b9dac2c0",
+		"tenantId": "3e60d070-6688-42df-8e2d-a69f9846911c"
+	}
+}
