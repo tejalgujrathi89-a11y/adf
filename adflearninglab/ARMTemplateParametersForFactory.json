@@ -1,0 +1,237 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adflearninglab"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage5_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage6_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_DelimitedFilterCSV_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_ToParquet_accountKey": {
+			"value": ""
+		},
+		"LS_EventTriggerDest_accountKey": {
+			"value": ""
+		},
+		"LS_EventTriggerSource_accountKey": {
+			"value": ""
+		},
+		"LS_IF_accountKey": {
+			"value": ""
+		},
+		"LS_LOOKUP_password": {
+			"value": ""
+		},
+		"LS_LinkedServer_password": {
+			"value": ""
+		},
+		"LS_Loadstatus_password": {
+			"value": ""
+		},
+		"LS_MultipleCSV_accountKey": {
+			"value": ""
+		},
+		"LS_MultipleCSVUpload_accountKey": {
+			"value": ""
+		},
+		"LS_Multiple_CSV_Upload_accountKey": {
+			"value": ""
+		},
+		"LS_Parquet_accountKey": {
+			"value": ""
+		},
+		"LS_RESTAPI_Avro_accountKey": {
+			"value": ""
+		},
+		"LS_SQLTable_password": {
+			"value": ""
+		},
+		"LS_SQL_Table_password": {
+			"value": ""
+		},
+		"LS_emptydatacheck_accountKey": {
+			"value": ""
+		},
+		"LS_foreachcsv_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"ls_empdatacheck_accountKey": {
+			"value": ""
+		},
+		"ls_move_n_delete_source_accountKey": {
+			"value": ""
+		},
+		"ls_movendelete_sink_accountKey": {
+			"value": ""
+		},
+		"test_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdesnbulkload.dfs.core.windows.net"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://adlsdesnbulkload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://adlsrcbulkload.dfs.core.windows.net"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://adlsdesnbulkload.dfs.core.windows.net"
+		},
+		"AzureDataLakeStorage5_properties_typeProperties_url": {
+			"value": "https://adlsrcbulkload.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"value": "https://adlsrcbulkload.dfs.core.windows.net/"
+		},
+		"LS_CSV_properties_typeProperties_url": {
+			"value": "https://adlsrcbulkload.dfs.core.windows.net"
+		},
+		"LS_DelimitedFilterCSV_properties_typeProperties_url": {
+			"value": "https://adlsdesnbulkload.dfs.core.windows.net/"
+		},
+		"LS_EXCEL_properties_typeProperties_url": {
+			"value": "https://adlsrcbulkload.dfs.core.windows.net/"
+		},
+		"LS_EXCEL_ToParquet_properties_typeProperties_url": {
+			"value": "https://adlsdesnbulkload.dfs.core.windows.net"
+		},
+		"LS_EventTriggerDest_properties_typeProperties_url": {
+			"value": "https://adlsdesnbulkload.dfs.core.windows.net/"
+		},
+		"LS_EventTriggerSource_properties_typeProperties_url": {
+			"value": "https://adlsrcbulkload.dfs.core.windows.net/"
+		},
+		"LS_IF_properties_typeProperties_url": {
+			"value": "https://adlsrcbulkload.dfs.core.windows.net/"
+		},
+		"LS_LOOKUP_properties_typeProperties_server": {
+			"value": "DESKTOP-6IN34H0"
+		},
+		"LS_LOOKUP_properties_typeProperties_database": {
+			"value": "AdventureWorks2019"
+		},
+		"LS_LOOKUP_properties_typeProperties_userName": {
+			"value": "tejal_user"
+		},
+		"LS_LinkedServer_properties_typeProperties_server": {
+			"value": "DESKTOP-6IN34H0"
+		},
+		"LS_LinkedServer_properties_typeProperties_database": {
+			"value": "DataFactory"
+		},
+		"LS_LinkedServer_properties_typeProperties_userName": {
+			"value": "tejal_user"
+		},
+		"LS_Loadstatus_properties_typeProperties_server": {
+			"value": "DESKTOP-6IN34H0"
+		},
+		"LS_Loadstatus_properties_typeProperties_database": {
+			"value": "DataFactory"
+		},
+		"LS_Loadstatus_properties_typeProperties_userName": {
+			"value": "tejal_user"
+		},
+		"LS_MultipleCSV_properties_typeProperties_url": {
+			"value": "https://adlsrcbulkload.dfs.core.windows.net/"
+		},
+		"LS_MultipleCSVUpload_properties_typeProperties_url": {
+			"value": "https://adlsdesnbulkload.dfs.core.windows.net"
+		},
+		"LS_Multiple_CSV_Upload_properties_typeProperties_url": {
+			"value": "https://adlsdesnbulkload.dfs.core.windows.net/"
+		},
+		"LS_Parquet_properties_typeProperties_url": {
+			"value": "https://adlsdesnbulkload.dfs.core.windows.net"
+		},
+		"LS_RESTAPI_Avro_properties_typeProperties_url": {
+			"value": "https://adlsdesnbulkload.dfs.core.windows.net/"
+		},
+		"LS_SQLTable_properties_typeProperties_server": {
+			"value": "DESKTOP-6IN34H0"
+		},
+		"LS_SQLTable_properties_typeProperties_database": {
+			"value": "DataFactory"
+		},
+		"LS_SQLTable_properties_typeProperties_userName": {
+			"value": "tejal_user"
+		},
+		"LS_SQL_Table_properties_typeProperties_server": {
+			"value": "DESKTOP-6IN34H0"
+		},
+		"LS_SQL_Table_properties_typeProperties_database": {
+			"value": "DataFactory"
+		},
+		"LS_SQL_Table_properties_typeProperties_userName": {
+			"value": "tejal_user"
+		},
+		"LS_emptydatacheck_properties_typeProperties_url": {
+			"value": "https://adlsrcbulkload.dfs.core.windows.net/"
+		},
+		"LS_foreachcsv_properties_typeProperties_url": {
+			"value": "https://adlsdesnbulkload.dfs.core.windows.net/"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "DESKTOP-6IN34H0"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "DataFactory"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "tejal_user"
+		},
+		"ls_empdatacheck_properties_typeProperties_url": {
+			"value": "https://adlsrcbulkload.dfs.core.windows.net/"
+		},
+		"ls_move_n_delete_source_properties_typeProperties_url": {
+			"value": "https://adlsdesnbulkload.dfs.core.windows.net/"
+		},
+		"ls_movendelete_sink_properties_typeProperties_url": {
+			"value": "https://adlsrcbulkload.dfs.core.windows.net/"
+		},
+		"test_properties_typeProperties_server": {
+			"value": "DESKTOP-6IN34H0"
+		},
+		"test_properties_typeProperties_database": {
+			"value": "DataFactory"
+		},
+		"test_properties_typeProperties_userName": {
+			"value": "tejal_user"
+		},
+		"EventTrigger_ManualCSV_properties_typeProperties_scope": {
+			"value": "/subscriptions/82420dd7-d3d5-45f2-bdf7-56a57a387a94/resourceGroups/rg_learning_lab/providers/Microsoft.Storage/storageAccounts/adlsrcbulkload"
+		}
+	}
+}
